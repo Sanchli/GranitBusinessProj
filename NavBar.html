@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost/project/products.php -->
+<html lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%
+}
+ .kitchenImg img{
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     width: 700px;
+     height: 500px;
+ }
+
+.logo{
+    margin-right: auto;
+    cursor:pointer;
+    height: 200px;
+    max-width: 350px;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    float: right;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+.button {
+    padding-top: 20px ;
+}
+
+h1 {
+    width: 500px;
+    margin: auto;
+    color: #edf0f1;
+}
+h4 {
+    color: #edf0f1;
+}
+div.loginPage {
+
+    width: 500px;
+    margin: auto;
+    float: left;
+}
+form {
+    color: #edf0f1;;
+}
+.loginSheet {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 0;
+}
+.loginSheet button {
+    margin-right: 20px;
+}
+.SignUpSheet {;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+.SignUpSheet button {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.SignupPageBox {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.SignupPageBox input {
+    margin-top: 20px;
+    background-color: #0dcaf0;
+}
+main{
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+.TeamPhotos img{
+    display: grid;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    width: 700px;
+    height: 400px;
+    position: absolute ;
+    float: left;
+}
+.splitRight {
+    float: right;
+    padding-top: 50px;
+    padding-right: 300px;
+
+}
+.suppliers img {
+    display: inline-block;
+    width: 450px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+
+
+}
+</style>
+
+
+
+    
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NavBar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./NavBar_files/styles1.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="./NavBar_files/logo.png" alt="logo" onclick="window.location.href=&#39;index.php&#39;">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="http://localhost/project/services.php">Services</a></li>
+                    <li><a href="http://localhost/project/products.php">Products</a></li>
+                    <li><a href="http://localhost/project/faqs.php">FAQS</a></li>
+                    <li><a href="http://localhost/project/aboutUs.php">About Us</a></li>
+                    <li><a href="http://localhost/project/contactUs.php">Contact Us</a></li>
+                </ul>
+                <div class="button">
+                    <form action="http://localhost/project/login.php" method="post">
+                        <button type="submit" name="login">Sign In</button>
+                    </form>
+                    <form action="http://localhost/project/includes/logoutPage.php" method="post">
+                        <button type="submit" name="logout-submit">Logout</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+    
+
+
+<div class="suppliers">
+    <img type="img" src="./NavBar_files/AmeriQuartz.svg" alt="suppliers1">
+    <img type="img" src="./NavBar_files/lackstone.png" alt="suppliers2">
+    <img type="img" src="./NavBar_files/mj.svg" alt="suppliers3">
+    <img type="img" src="./NavBar_files/CRSLogo.png" alt="suppliers4">
+</div>
+
+
+
+
+<footer>
+        <p>Author: Edgar Sanchez</p>
+        <p><a href="mailto:sanchedg020213@gmail.com">sanchedg020213@gmail.com</a></p>
+    <a href="http://localhost/project/index.php"> Home Page</a>
+
+</footer>
+
+
+</body></html>

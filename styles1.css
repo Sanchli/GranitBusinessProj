@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+body {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    margin-bottom: 0px;
+}
+.footerCenter {
+    justify-content: center;
+    display: flex;
+    color :white;
+}
+.footerCenter p {
+    padding: 20px 20px 20px 20px;
+}
+.footerCenter a {
+    padding: 20px 20px 20px 20px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%
+}
+ .kitchenImg img{
+     display: inline-block;
+     text-align: center;
+     padding: 10px;
+     width: 700px;
+     height: 500px;
+ }
+
+.logo{
+    margin-right: auto;
+    cursor:pointer;
+    height: 200px;
+    max-width: 350px;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    float: right;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+.button {
+    padding-top: 20px ;
+}
+
+h1 {
+    width: 500px;
+    margin: auto;
+    color: #edf0f1;
+}
+h4 {
+    color: #edf0f1;
+}
+div.loginPage {
+
+    width: 500px;
+    margin: auto;
+    float: left;
+}
+form {
+    color: #edf0f1;;
+}
+.loginSheet {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 0;
+}
+.loginSheet button {
+    margin-right: 20px;
+}
+.SignUpSheet {;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+.SignUpSheet button {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.SignupPageBox {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.SignupPageBox input {
+    margin-top: 20px;
+    background-color: #0dcaf0;
+}
+main{
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+.TeamPhotos img{
+    display: grid;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    width: 700px;
+    height: 400px;
+    position: absolute ;
+    float: left;
+}
+.splitRight {
+    float: right;
+    padding-top: 50px;
+    padding-right: 300px;
+
+}
+.splitRight ul li{
+    padding-bottom: 20px;
+}
+.suppliers img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    width: 500px;
+    height: auto;
+}
+.suppliers h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: #0dcaf0;
+}
+.ServicesCenter {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ServicesCenter h1 {
+    padding-bottom: 50px;
+}
+.ServicesCenter ul {
+    text-align: center;
+}
+.ServicesCenter ul li {
+    padding-bottom: 20px;
+}
+.FAQs{
+    text-align: center;
+}
+.ContactParagraph button {
+    height: 100px;
+    width: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
